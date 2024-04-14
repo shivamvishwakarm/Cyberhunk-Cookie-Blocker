@@ -25,9 +25,7 @@ Before you can install and use this extension, you need to have the following:
 
 The extension should now be loaded and visible in your list of extensions. You should see the extension icon added to the Chrome toolbar.
 
-## Usage
-
-Once the extension is installed, you can [provide instructions on how to use the extension].
+Now you are ready to use the extension.This will block all the cookies from the website you visit.
 
 ## License
 
