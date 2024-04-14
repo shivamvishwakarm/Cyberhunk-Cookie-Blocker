@@ -1,0 +1,72 @@
+<!doctype html>
+<style type="text/css">
+    #mainPopup {
+        padding: 10px;
+        height: 200px;
+        width: 300px;
+        font-family: Helvetica, Ubuntu, Arial, sans-serif;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    input {
+        font: inherit;
+        /*width: 90%;*/
+        padding: 8px 16px;
+        line-height: 25px;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 6px;
+        -webkit-appearance: none;
+        color: black;
+        border: 1px solid #CCC;
+        background: white;
+        transition: border .3s ease;
+
+    }
+
+    .button {
+        background: #1a73e8;
+        border: 1px solid transparent;
+        color: white;
+        border-radius: 4px;
+        padding: 4px 20px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .buttonInclude {
+        background: #ffc268;
+        border: 1px solid transparent;
+        color: white;
+        border-radius: 4px;
+        padding: 4px 20px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+
+    .hidden {
+        display: none;
+    }
+
+    #count {
+        font-size: 40px;
+        text-align: center;
+    }
+</style>
+
+<div id="mainPopup">
+    <h1 style="text-align: center">Cookie Popup Blocker</h1>
+    <div style="text-align: center">
+        <button id="excludeButton" class="button">Exclude This Website</button>
+    </div>
+    <div style="text-align: center; margin-top: 10px">
+        <div id="count">
+            0
+        </div>
+        <div style="font-size: 18px; margin-top: 10px">Cookie Popups Blocked</div>
+    </div>
+</div>
+<script src="browser_action.js"></script>
